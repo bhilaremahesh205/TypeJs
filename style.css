@@ -1,0 +1,30 @@
+*{
+	box-sizing: border-box;
+
+}
+html,body{
+	margin: 0px;
+	font-size: 18px;
+	font-family: arial;
+}
+.container{
+	width: 1000px;
+	margin: 0 auto;
+}
+
+.banner{
+	height: 100vh;
+	background: url('m1.jpg') center center no-repeat;
+	background-size: cover;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;	
+}
+.type_text,
+.typed-cursor{
+	font-size: 80px;
+	color: red;
+}
+.typed-cursor{
+	font-weight: 700;
+}
